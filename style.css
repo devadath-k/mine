@@ -20,7 +20,7 @@ body {
 #name{
     text-align: center;
     position: relative;
-    top:35%;
+    top:35vh;
     font-weight: bold;
 }
 button{
