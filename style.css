@@ -12,11 +12,34 @@ body {
 #intro{
     margin:0;
     padding:0;
-    width:100%;
+    width:100vw;
     height:100vh;
-    background-color: rgba(247, 165, 57, 0.514);
-    background-size: 100%;
+    background-color: rgba(65, 123, 199, 0.671);
+    background-size: cover;
+    box-sizing: border-box;
 }
+#navbar{
+    padding-left:60vw;
+    margin:0;
+}
+#navbar ul{
+    padding:0;
+    margin:0;
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-flex;
+}
+#navbar ul li{
+    margin:10px;
+    width:10vw;
+    text-align: center;
+    
+}
+#navbar a{
+    color:#000000;
+    font-weight: bold;
+}
+
 #name{
     text-align: center;
     position: relative;
@@ -30,14 +53,14 @@ button{
     margin:20px 10px;
     border-radius:25px;
     font-weight:bold;
-    border: 2px solid #994016;
+    border: 2px solid #042cad;
     background:transparent;
-    color:white;
+    color:#042cad;
     cursor: pointer;
     position:relative;
 }
 button span{
-    background: #994016;
+    background: #042cad;
     height:100%;
     width:0;
     border-radius: 15px;
@@ -49,9 +72,11 @@ button span{
 }
 button:hover span{
     width:100%;
+    position:absolute;
 }
 button:hover{
     border:none;
+    color:white;
 }
 a{
     text-decoration: none;
@@ -59,7 +84,7 @@ a{
 }
 .social ul{
     padding:5px;
-    margin-top:55vh;
+    margin-top:52vh;
 }
 .social ul li{
     list-style: none;
