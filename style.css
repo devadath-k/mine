@@ -30,10 +30,27 @@ body {
     display: inline-flex;
 }
 #navbar ul li{
-    margin:0.6vw 1vw;
-    width:10vw;
+    margin:0.6vw 2vw;
+    width:6vw;
     text-align: center;
-    
+    position:relative;
+}
+#navbar ul li a:hover{
+    color:white;
+}
+#navbar ul li a::after{
+    content:'';
+    height:3px;
+    width:0;
+    left:0;
+    bottom:0;
+    top:20px;
+    background: white;
+    transition:0.5s;
+    position:absolute;
+}
+#navbar ul li a:hover::after{
+    width:100%;
 }
 #navbar a{
     color:#000000;
