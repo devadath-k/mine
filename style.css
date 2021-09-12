@@ -62,6 +62,8 @@ body {
     position: relative;
     top:35vh;
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
 }
 button{
     width:150px;
