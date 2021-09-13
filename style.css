@@ -2,7 +2,7 @@ body {
     margin:0;
     padding:0;
     font-family: Arial, Helvetica, sans-serif;    
-    background-image: url(img/wp2599486.jpg) ;
+    background-image:radial-gradient(rgba(144, 144, 255, 0.74), rgba(65, 65, 255, 0.95)) ,url(img/wp2599486.jpg);
     background-position: center;
     background-size:cover;
     box-sizing:border-box;
@@ -10,12 +10,7 @@ body {
     background-repeat: no-repeat;
     
 }
-#container{
-    background-color: #042bada6;
-    background-attachment: fixed;
-    padding:0;
-    margin: 0;
-}
+
 #intro{
     margin:0;
     padding:0;
@@ -25,11 +20,31 @@ body {
     box-sizing: border-box;
     position: relative;
 }
+#welcome{
+    width:300px;
+    margin:0;
+    position:fixed;
+    background-color: blue;
+    color:white;
+    font-size: 25px;
+    font-weight:bold;
+    height:300px;
+    padding: 0;
+    text-align:center;
+    text-transform: uppercase;
+    transform: rotate(315deg);
+    top:-170px;
+    left:-170px;
+}
+#welcome p{
+    padding:265px 0 0 0;
+    margin:0;
+}
 #navbar{
-
     padding-left:63vw;
     margin:0;
     position:relative;
+    top:10px;
 }
 #navbar ul{
     display:flex;
@@ -55,7 +70,7 @@ body {
     content:'';
     height:3px;
     width:0;
-    left:0;
+    left:10%;
     bottom:0;
     top:20px;
     background: white;
@@ -63,7 +78,7 @@ body {
     position:absolute;
 }
 #navbar ul li a:hover::after{
-    width:100%;
+    width:80%;
 }
 #navbar a{
     color:#000000;
@@ -73,7 +88,7 @@ body {
 #name{
     text-align: center;
     position: relative;
-    top:35vh;
+    top:30vh;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 10px;
