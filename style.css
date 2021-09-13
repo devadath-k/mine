@@ -21,23 +21,23 @@ body {
     position: relative;
 }
 #welcome{
-    width:300px;
+    width:23.5vw;
     margin:0;
     position:fixed;
     background-color: blue;
     color:white;
-    font-size: 25px;
+    font-size: 1.8vw;
     font-weight:bold;
-    height:300px;
+    height:23.5vw;
     padding: 0;
     text-align:center;
     text-transform: uppercase;
     transform: rotate(315deg);
-    top:-170px;
-    left:-170px;
+    top:-15vw;
+    left:-15vw;
 }
 #welcome p{
-    padding:265px 0 0 0;
+    padding:21vw 0 0 0;
     margin:0;
 }
 #navbar{
